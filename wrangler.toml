@@ -1,15 +1,18 @@
-name = "high-performance-doh-proxy-worker"
+# wrangler.toml
+name = "twilight-thunder-81b5"
 main = "workers.js"
 compatibility_date = "2023-05-22"
 
 # Development environment
 [env.dev]
-name = "high-performance-doh-proxy-worker-dev"
+# wrangler.toml
+name = "twilight-thunder-81b5"
 vars = { ENVIRONMENT = "development" }
 
 # Production environment
 [env.production]
-name = "high-performance-doh-proxy-worker"
+# wrangler.toml
+name = "twilight-thunder-81b5"
 vars = { ENVIRONMENT = "production" }
 
 # Performance optimizations
